@@ -1,0 +1,7 @@
+#Movie Sentiment Analysis
+
+This repository contains the code and documentation for a project focused on sentiment analysis of movie reviews, conducted as part of preliminary research under the guidance of Dr. Weiwei Sun during the summer. The project employs a Naive Bayes classifier to understand and predict the sentiment expressed in movie reviews. Naive Bayes classifiers are a collection of classification algorithms based on Bayes' Theorem. They are particularly useful due to their simplicity, efficiency, and their ability to handle large volumes of data.
+
+The core mathematics involved in this analysis include the calculation of prior probabilities, likelihoods, and the use of Bayes' Theorem to compute the posterior probability that a given movie review expresses a positive sentiment. For example, the prior probability is calculated as the relative frequency of each class in the training set (positive or negative reviews), and Bayes' Theorem is then applied to update these probabilities based on the presence of specific words in a review. This method hinges on the assumption that the features (words) in the dataset are mutually independent given the class label.
+
+Our implementation of the Naive Bayes algorithm delves into each of these areas, providing a practical application of these concepts to the field of natural language processing and sentiment analysis. The repository includes both the Python code used for the analysis and the datasets of movie reviews that were processed.
